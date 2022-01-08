@@ -1,0 +1,70 @@
+h1 {
+    margin: 0;
+    padding: 0;
+}
+.field {
+    flex: 1;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.field input:focus-visible {
+    border-color: #F6C06F;
+    box-shadow: inset 0 0 5px #F6C06F;
+    outline-style: none;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background: #1e1e1e;
+    color: white;
+}
+.nav-bar img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin-right: 20px;
+}
+.nav-bar h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.window {
+    background: inherit;
+    flex: 1;
+    width: 80%;
+    height: 78%;
+    overflow-x: hidden;
+}
+.message-send-field {
+    display: flex;
+    background: #1e1e1e;
+    border-radius: 10px;
+    width: 80%;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.message-send-field input {
+    border: none;
+    border-radius: inherit;
+    padding: 20px 30px;
+    color: white;
+}
+.message-send-field input[type="text"] {
+    background: #1e1e1e;
+    width: 100%;
+}
+.message-send-field input[type="submit"] {
+    background: #F6C06F url("../../../img/icon-btn.png") no-repeat center center / 40px;
+    width: 100px;
+}
+.main-color {
+    background: linear-gradient(160.06deg, #F7C06F 0%, #CE3909 86.69%);
+}

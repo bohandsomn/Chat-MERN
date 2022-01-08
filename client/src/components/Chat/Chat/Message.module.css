@@ -1,0 +1,24 @@
+.container {
+    background: #1e1e1e;
+    border-radius: 10px;
+    color: white;
+    max-width: 62%;
+    padding: 8px 16px;
+    margin: 16px 0;
+}
+.container.isender {
+    background: linear-gradient(160.06deg, #F7C06F 0%, #CE3909 86.69%);
+    margin-left: auto;
+}
+.container h5 {
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+}
+.container p {
+    font-size: 16px;
+}
+.container .name-and-time {
+    display: flex;
+    padding-bottom: 8px;
+}

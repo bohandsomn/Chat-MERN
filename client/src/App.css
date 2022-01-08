@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*, input {
+    font-family: 'Montserrat', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+
+:root {
+    --main-light: #70B6F7;
+    --gradient-light: linear-gradient(160.06deg, #6FB5F7 0%, #09C2CE 86.69%);
+    --light-theme: #FFFFFF;
+    --message-light: #9DF1AF;
+
+    --main-dark: #F6C06F;
+    --dradient-dark: linear-gradient(160.06deg, #F7C06F 0%, #CE3909 86.69%);
+    --dark-theme: #1E1E1E;
+    --message-dark: var(--dradient-dark);
+
+    --white: #FFF;
+    --black: #000;
+}

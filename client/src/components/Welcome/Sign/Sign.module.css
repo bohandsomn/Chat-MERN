@@ -1,0 +1,50 @@
+@import url('../../../App.css');
+
+.field {
+    height: 100vh;
+    background: var(--dark-theme);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.field input:focus-visible {
+    border-color: var(--main-dark);
+    box-shadow: inset 0 0 5px var(--main-dark);
+    outline-style: none;
+}
+.field h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+.field p {
+    font-size: 16px;
+    color: var(--white);
+}
+.field p span {
+    color: var(--main-dark);
+    cursor: pointer;
+}
+.field input {
+    border: 2px solid var(--white);
+    background: transparent;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+.field [type="submit"] {
+    width: 180px;
+    margin-bottom: 30px;
+    border: 0;
+    background: var(--main-dark);
+}
+.field form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

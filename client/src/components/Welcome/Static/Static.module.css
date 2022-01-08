@@ -1,0 +1,22 @@
+.static {
+    height: 100vh;
+    background: linear-gradient(160.06deg, #F7C06F 0%, #CE3909 86.69%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.static h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.static p {
+    font-size: 28px;
+    width: 530px;
+}
+.wrap {
+    background: url('../../../img/logo.png') top center no-repeat;
+    padding: 106px;
+}
