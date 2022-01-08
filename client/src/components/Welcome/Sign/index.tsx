@@ -24,9 +24,8 @@ const Sign: React.FC<Props> = (props: Props) => {
         setData
     } = props
 
-    // DEBUG
-    const initialStateName: string = 'MyName'
-        , initialStatePassword: string = '12345678'
+    const initialStateName: string = ''
+        , initialStatePassword: string = ''
 
     const [name, setName] = useState(initialStateName)
     const [password, setPassword] = useState(initialStatePassword)
